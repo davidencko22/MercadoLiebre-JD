@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static('public'));
 
 app.listen(process.env.PORT  || 3000, function(){
-    console.log('Servidor funcionando');
+    console.log('Servidor funcionando en el puerto 3000');
 });
 
 app.get('/', (req,res)=>{
